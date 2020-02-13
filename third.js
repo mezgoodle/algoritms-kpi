@@ -1,4 +1,7 @@
+// Data swaps
 let swaps = 0
+
+// Quick sort
 const qsort = (arr) => {
 	if (arr.length < 2) {
 		return arr;
@@ -24,6 +27,9 @@ const qsort = (arr) => {
 	}
 };
 
+// Input data
 const arr = [1, 213, 3, 5, 2, 8, 7];
+
+// Output data
 console.log(qsort(arr));
 console.log(swaps);
