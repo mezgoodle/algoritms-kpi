@@ -1,0 +1,3 @@
+*.dat
+temp.py
+__pycache__/
