@@ -46,7 +46,7 @@ def get_user_recommendation(user_id, k=50, top_n=10):
     sliced = U[:, :k] # representative data
     results = top_cosine_similarity(sliced, user_id, users_index, top_n)
     print(f"Recommendations for user {user_id}")
-    print(result1)
+    print(results)
 
 #Output data
 get_user_recommendation(1)
