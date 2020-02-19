@@ -32,4 +32,4 @@ const arr = [1, 213, 3, 5, 2, 8, 7];
 
 // Output data
 console.log(qsort(arr));
-console.log(swaps);
+console.log('Swaps:',swaps);

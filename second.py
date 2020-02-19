@@ -39,7 +39,7 @@ def get_movie_recommendation(movie_id, k=50, top_n=10):
     results = top_cosine_similarity(sliced, movie_id, movies_index, top_n)
     name = movie_data[movie_data.movie_id == movie_id].title.values[0]
     print(f"Recommendations for movie {name}")
-    print(results)
+    print(result1)
 
 # Recommendation itself
 def get_user_recommendation(user_id, k=50, top_n=10):
